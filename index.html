@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        let math = 78;
+        let physics = 88;
+        let chemistry = 56;
+        let english = 65;
+        let islamiyat = 71;
+        let computer = 77;
+        let urdu = 66;
+        let pakstudies = 56;
+        let totalmarks = 800;
+        let totalscore = math + physics + chemistry + english + islamiyat + computer + urdu + pakstudies;
+
+        let percentage = (totalscore / totalmarks) * 100;
+
+        if (percentage <= 100 && percentage > 90) {
+            console.log(
+                `Total marks obtained by the of student is ${totalscore}  out of ${totalmarks} and total percentage is ${percentage} and got grade A+`
+                );
+        }else if(percentage <=90 && percentage>80)
+        {
+            console.log(
+                `Total marks obtained by the of student is ${totalscore} out of ${totalmarks}and total percentage is ${percentage} and got grade A`
+                );
+        }else if(percentage <=80 && percentage>70){
+            console.log(
+                `Total marks obtained by the of student is ${totalscore} out of ${totalmarks} and total percentage is ${percentage} and got grade B+`
+                );
+        }else if(percentage <=70 && percentage>60){
+            console.log(
+                `Total marks obtained by the of student is ${totalscore} out of ${totalmarks} and total percentage is ${percentage} and got grade B`
+                );
+        }else if(percentage <=60 && percentage>50){
+            console.log(
+                `Total marks obtained by the of student is ${totalscore} out of ${totalmarks} and total percentage is ${percentage} and got grade C`
+                );
+        }else if(percentage <=50 && percentage>45){
+            console.log(
+                `Total marks obtained by the of student is ${totalscore} out of ${totalmarks} and total percentage is ${percentage} and got grade D`
+                );
+        }else if(percentage <=45 && percentage>40){
+            console.log(
+                `Total marks obtained by the of student is ${totalscore} out of ${totalmarks} and total percentage is ${percentage} and got grade E`
+                );
+        }else{
+            console.log(
+                `Total marks obtained by the of student is ${totalscore} out of ${totalmarks} and total percentage is ${percentage} and got grade F`
+                );
+        }
+    </script>
+</body>
+
+</html>
